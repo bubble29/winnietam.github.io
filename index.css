@@ -1,0 +1,150 @@
+body {
+    background-color: #8fb49b;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0px 8px 20px #333333;
+}
+
+.menu a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+}
+
+.wrap {
+    margin: 3%;
+    background-color: #b1b3ae;
+    box-shadow: 0px 10px 50px #333333;
+    overflow: auto;
+}
+
+#image {
+    height: 120%;
+    float: left;
+    background-color: #97a8c0; 
+    box-shadow: 0px 1px 10px 0px #333;
+    overflow: auto;
+}
+
+#imgsize {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 1px 10px 0px #333;
+}
+
+#contact a, a:visited {
+    text-decoration: none;
+    padding-left: 4%;
+}
+
+/*---------- Profile summary ----------*/
+#sum {
+    padding-left: 28%;
+    width: 55%;
+}
+
+#skills {
+    position: relative;
+}
+
+/*---------- Skills ----------*/
+.sks {
+    list-style: square;
+}
+
+/*---------- JOBS ----------*/
+.exp {
+    margin: 2%;
+    margin-top: 3%
+}
+
+.titlename {
+    padding-left: 2%;
+    position: fixed;
+    color: #232831;
+    font-size: 18px;
+    font-family: 'Lucida Sans';
+}
+
+#jobtitle1, #jobtitle2, #jobtitle3 {
+    width: 92%;
+    height: 16%;
+    top: relative;
+    background: #e7e698;
+    z-index: 99;
+    position: absolute;
+    float: left;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 0px 1px 10px 0px #333;
+}
+
+/*---------- First, second, third jobs ----------*/
+#first, #second, #third {
+    width: 99%;
+    height: 16%;
+    background: #e9cd80;
+    position: relative;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 1px 10px 0px #333;
+}
+
+/*---------- Experience Description ----------*/
+.description {
+    padding-left: 38%;
+    padding-top: 10px;
+}
+
+/*---------- Project layer ----------*/
+.layer {
+    padding: 3% 0 0 4%;
+}
+
+/*---------- Project title ----------*/
+.protitle {
+    text-align: center;
+}
+
+/*---------- Project Description ----------*/
+.desc {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------- Project image size ----------*/
+#mercury, #gemini, #mars {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#doxa, #zeppelin, #trilobite {
+    float: left;
+    width: 30%;
+    height: 60%;
+    margin-right: 3%;
+    padding-top: 10px;
+    box-shadow: 0px 1px 5px 0px #333;
+}
+
+.layer1:link, .layer1:visited, .protitle:visited {
+    text-decoration: none;
+    color: inherit;
+}
