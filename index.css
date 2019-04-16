@@ -34,13 +34,13 @@ body {
 #image {
     height: 120%;
     float: left;
-    background-color: #97a8c0; 
+    background-color: #9ca5b1; 
     box-shadow: 0px 1px 10px 0px #333;
-    overflow: auto;
+    overflow: auto
 }
 
 #imgsize {
-    width: 300px;
+    width: 268px;
     height: 300px;
     box-shadow: 0px 1px 10px 0px #333;
 }
@@ -52,8 +52,8 @@ body {
 
 /*---------- Profile summary ----------*/
 #sum {
-    padding-left: 28%;
-    width: 55%;
+    padding-left: 24%;
+    padding-right: 8%;
 }
 
 #skills {
@@ -83,7 +83,7 @@ body {
     width: 92%;
     height: 16%;
     top: relative;
-    background: #e7e698;
+    background: #a0b2c2;
     z-index: 99;
     position: absolute;
     float: left;
@@ -95,7 +95,7 @@ body {
 #first, #second, #third {
     width: 99%;
     height: 16%;
-    background: #e9cd80;
+    background: #cccea6;
     position: relative;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 1px 10px 0px #333;
