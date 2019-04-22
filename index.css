@@ -72,7 +72,7 @@ body {
 }
 
 .titlename {
-    padding-left: 2%;
+    padding-left: 3%;
     position: fixed;
     color: #232831;
     font-size: 18px;
@@ -81,8 +81,7 @@ body {
 
 #jobtitle1, #jobtitle2, #jobtitle3 {
     width: 92%;
-    height: 16%;
-    top: relative;
+    height: 18%;
     background: #a0b2c2;
     z-index: 99;
     position: absolute;
@@ -94,17 +93,18 @@ body {
 /*---------- First, second, third jobs ----------*/
 #first, #second, #third {
     width: 99%;
-    height: 16%;
+    height: 18%;
     background: #cccea6;
     position: relative;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 1px 10px 0px #333;
+    overflow: auto;
 }
 
 /*---------- Experience Description ----------*/
 .description {
     padding-left: 38%;
-    padding-top: 10px;
+    font-family: 'Lucida Sans';
 }
 
 /*---------- Project layer ----------*/
@@ -127,8 +127,8 @@ body {
 
 /*---------- Project image size ----------*/
 #mercury, #gemini, #mars {
-    width: 35%;
-    height: 35%;
+    width: 36%;
+    height: 36%;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -142,6 +142,7 @@ body {
     margin-right: 3%;
     padding-top: 10px;
     box-shadow: 0px 1px 5px 0px #333;
+    overflow: auto;
 }
 
 .layer1:link, .layer1:visited, .protitle:visited {
